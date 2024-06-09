@@ -1,0 +1,15 @@
+﻿global using System.Text;
+global using System.Text.Json;
+global using RabbitMQ.Client;
+global using RabbitMQ.Client.Events;
+global using BankingSagaPattern.EmailModule.Interface;
+global using BankingSagaPattern.Common;
+global using System.Net.Mail;
+global using System.Net;
+global using BankingSagaPattern.QueueGeneric;
+global using BankingSagaPattern.AccountModule;
+global using BankingSagaPattern.EmailModule;
+global using BankingSagaPattern.EmailModule.EmailProviderService;
+global using BankingSagaPattern.EventTriggerService;
+global using BankingSagaPattern.NotificationModule;
+global using BankingSagaPattern.TransferModule;
